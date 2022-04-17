@@ -50,7 +50,7 @@ class SplitView @JvmOverloads constructor(
         mAnimator.interpolator = LinearInterpolator()
         mAnimator.interpolator = LinearInterpolator()
         mAnimator.addUpdateListener {
-            it.reverse()
+            //it.reverse()
             updateBall()
             invalidate()
         }
