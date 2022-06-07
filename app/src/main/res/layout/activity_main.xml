@@ -6,9 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.example.canvassplit.BezierView
+    <com.example.canvassplit.DragBubbleView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        app:bubble_color="#ff0000"
+        app:bubble_radius="12dp"
+        app:bubble_text="12"
+        app:bubble_textColor="#ffffff"
+        app:bubble_textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
